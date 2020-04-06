@@ -1,0 +1,17 @@
+<div class="navigation">
+    <input type="checkbox" id="nav-switch" name="nav-switch" class="menu-checkbox">
+    <label for="nav-switch" class="menu">
+        Menu
+        <span></span>
+    </label>
+    <img src="svg/logo.svg" alt="Marko Idzan" class="logo">
+    <nav>
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" class="menu-item" {% if page.url == item.link %}aria-current="page"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+        <!-- <a href="index.html" class="menu-item" aria-current="page">Home</a>
+        <a href="about.html" class="menu-item">About</a>
+        <a href="projects.html" class="menu-item">Projects</a>
+        <a href="contact.html" class="menu-item">Contact</a> -->
+    </nav>
+</div>
