@@ -1,13 +1,13 @@
 <div class="navigation">
-    <input type="checkbox" id="nav-switch" name="nav-switch" class="menu-checkbox">
-    <label for="nav-switch" class="menu">
-        Menu
-        <span></span>
-    </label>
-    <img src="/svg/logo.svg" alt="Marko Idzan" class="logo">
-    <nav>
-        {% for item in site.data.navigation %}
+        <input type="checkbox" id="nav-switch" name="nav-switch" class="menu-checkbox">
+        <label for="nav-switch" class="menu">
+            Menu
+            <span></span>
+        </label>
+        <img src="/svg/logo.svg" alt="Marko Idzan" class="logo">
+        <nav>
+            {% for item in site.data.navigation %}
             <a href="{{ item.link }}" class="menu-item" {% if page.url == item.link %}aria-current="page"{% endif %}>{{ item.name }}</a>
-        {% endfor %}
-    </nav>
-</div>
+            {% endfor %}
+        </nav>
+    </div>
