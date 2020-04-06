@@ -1,0 +1,57 @@
+---
+title: Croatian States Plugin for WooCommerce
+description: Croatian States Plugin for WooCommerce Project
+permalink: project/croatian-states-woocommerce.html
+image: img/cro-states-woo.jpg
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% include site_verification.html %}
+
+    {% include favicons_styling.html %}
+
+    {% include header/open_graph.html %}
+
+    {% include header/twitter_card.html %}
+
+    <title>{{ page.title }}</title>
+
+    <!-- Meta Tagovi -->
+    <meta name="title" content="{{ page.title }} - Marko Idžan">
+    <meta name="description" content="{{ page.description }}">
+</head>
+<body>
+    <header>
+        {% include navigation.html %}
+    </header>
+    <main>
+        <h1>Croatian States Plugin for WooCommerce</h1>
+        <section>
+            <a href="/projects.html" class="returnback">Return to Projects</a>
+            <div class="single-project">
+                <picture>
+                    <source srcset="/img/webp/cro-states-woo.webp" type="image/webp">
+                    <img src="/img/cro-states-woo.jpg" alt="Croatian States Plugin for WooCommerce">
+                </picture>
+                <div class="description">
+                    <p>This is one small project which I created for “maskice.hr” Web Shop and Web Site to improve delivery and Shipping information’s which are provided by customer to adjust Shipping Cost while company used provider which had different price depending on shipping location. Extension was tried to integrate into WooCommerce Core on GitHub but unfortunately, they canceled my pull because of i18n validation of County names in English. All States/Counties are in Croatian and they are ready to be translated.</p>
+                </div>
+            </div>
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Client:</strong> Gold Deal Ltd.</p>
+                <p><strong>Project start date:</strong> July 2017.</p>
+                <p><strong>Project web site:</strong> <svg class="icon"><use href="/svg/sprite.svg#external"></use></svg> <a href="https://github.com/idzan/woocommerce-hr-states" target="_blank" rel="noopener noreferrer">github.com/idzan/woocommerce-hr-states</a></p>
+                <p><strong>Technologies used:</strong> php</p>
+            </div>
+        </section>
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+</html>

@@ -1,0 +1,57 @@
+---
+title: Ceramics Craft “BM” Web Site
+description: Ceramics Craft “BM” Web Site Project
+permalink: project/ceramics-craft-bm-web-site.html
+image: img/keramicarski-bm.jpg
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% include site_verification.html %}
+
+    {% include favicons_styling.html %}
+
+    {% include header/open_graph.html %}
+
+    {% include header/twitter_card.html %}
+
+    <title>{{ page.title }}</title>
+
+    <!-- Meta Tagovi -->
+    <meta name="title" content="{{ page.title }} - Marko Idžan">
+    <meta name="description" content="{{ page.description }}">
+</head>
+<body>
+    <header>
+        {% include navigation.html %}
+    </header>
+    <main>
+        <h1>Ceramics Craft “BM” Web Site</h1>
+        <section>
+            <a href="/projects.html" class="returnback">Return to Projects</a>
+            <div class="single-project">
+                <picture>
+                    <source srcset="/img/webp/keramicarski-bm.webp" type="image/webp">
+                    <img src="/img/keramicarski-bm.jpg" alt="Ceramics Craft BM Web Site">
+                </picture>
+                <div class="description">
+                    <p>Web Site for “Ceramics Craft BM” (Croatian: “Keramičarski obrt BM”) was created in August of 2015 as small portfolio of works which are made from this company. Site is running WordPress, and currently it is in state of crating new design which is more modern that design it was using. Old design was based on GeneratePress Theme with few custom tweaks so page looked nice. Right now page uses updated logo design and is starting fresh up with clean design.</p>
+                </div>
+            </div>
+            <div class="details">
+                <h3>Project Details</h3>
+                <p><strong>Client:</strong> Ceramics Craft “BM”</p>
+                <p><strong>Project start date:</strong> August 2015.</p>
+                <p><strong>Project web site:</strong> <svg class="icon"><use href="/svg/sprite.svg#external"></use></svg> <a href="https://www.keramicarskiobrtbm.hr/" target="_blank" rel="noopener noreferrer">keramicarskiobrtbm.hr</a></p>
+                <p><strong>Technologies used:</strong> WordPress</p>
+            </div>
+        </section>
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+</html>
