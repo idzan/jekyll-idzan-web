@@ -1,7 +1,43 @@
 ---
-layout: homepage
-title: Marko Idzan
+title: Marko Idžan
+description: Marko Idžan’s Official Web Site
+permalink:
 ---
-<h1 class="headline">Hello my name is Marko Idžan</h1>
-<h2 class="subheadline">and I'm <span class="typing"></span></h2>
-<span class="button"><a href="about" class="cta">Learn more about me</a></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% include site_verification.html %}
+
+    {% include favicons_styling.html %}
+
+    {% include header/open_graph.html %}
+
+    {% include header/twitter_card.html %}
+
+    <title>{{ page.title }}</title>
+
+    <!-- Meta Tagovi -->
+    <meta name="title" content="{{ page.title }}">
+    <meta name="description" content="{{ page.description }}">
+</head>
+<body>
+    <header>
+        {% include navigation.html %}
+    </header>
+    <main class="cover">
+        <h1 class="headline">Hello my name is Marko Idžan</h1>
+        <h2 class="subheadline">and I'm <span class="typing"></span></h2>
+        <span class="button"><a href="about.html" class="cta">Learn more about me</a></span>
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+    <script src="js/external/typed.js"></script>
+    <script>
+        var typed = new Typed('.typing', { strings: ['Freelance Web Designer', 'IT Technician', 'Web Administrator', 'IT Administrator', 'Photographer', 'Video Editor', 'Gamer and Nerd'], typeSpeed: 30, startDelay: 5, backSpeed: 50, backDelay: 700, loop: true });
+    </script>
+</body>
+</html>
