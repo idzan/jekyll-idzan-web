@@ -14,22 +14,22 @@
     <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
     <link rel="icon" href="favicon/android-chrome.png" type="image/png">
     <!-- Open Graph Protocol -->
-    <meta property="og:title" content="About me">
+    <meta property="og:title" content="Marko Idzan">
     <meta property="og:site_name" content="Marko Idzan">
-    <meta property="og:url" content="https://idzan.eu/about.html">
-    <meta property="og:description" content="About and CV for Marko Idžan">
+    <meta property="og:url" content="https://idzan.eu">
+    <meta property="og:description" content="Marko Idžan’s Official Web Site">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/img/og-image.png">
     <meta property="og:locale" content="en_US" />
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@idzanmarko">
-    <meta name="twitter:title" content="About me - Marko Idzan">
-    <meta name="twitter:description" content="About and CV for Marko Idžan">
-    <title>About me - Marko Idzan</title>
+    <meta name="twitter:title" content="Marko Idzan">
+    <meta name="twitter:description" content="Marko Idžan’s Official Web Site">
+    <title>Marko Idzan</title>
     <!-- Meta Tagovi -->
-    <meta name="title" content="About me - Marko Idzan">
-    <meta name="description" content="About and CV for Marko Idžan">
+    <meta name="title" content="Marko Idzan">
+    <meta name="description" content="Marko Idžan’s Official Web Site">
 </head>
 <body>
     <header>
@@ -41,45 +41,15 @@
             </label>
             <img src="svg/logo.svg" alt="Marko Idzan" class="logo">
             <nav>
-                <a href="index.html" class="menu-item">Home</a>
-                <a href="about.html" class="menu-item" aria-current="page">About</a>
+                <a href="index.html" class="menu-item" aria-current="page">Home</a>
+                <a href="about.html" class="menu-item">About</a>
                 <a href="projects.html" class="menu-item">Projects</a>
                 <a href="contact.html" class="menu-item">Contact</a>
             </nav>
         </div>
     </header>
-    <main>
-        <h1>About me</h1>
-        <section>
-            <p>Marko Idžan is a Croatian Freelance Web Designer & Administrator with experiences in IT Administration. I was born in early September of 1993 and I’m Christian Catholic. Personally I have couple of hobbies and those are Biking, Photography and Video Production.</p>
-            <p>Education and learning about Computing started in Primary School “Žitnjak” in year 2000. For High School I went to Technical School “Ruđera Boškovića” where I graduated as Computer Technician in 2012. As for College I went to Zagreb University of Applied Sciences in two degrees, from I finished degree in Computing for Bachelor of Technology.</p>
-            <p>I have worked for multiple companies on position of IT Administrator and Web Shop Manager. Those Companies are Gold Deal Ltd. where I started working in November of 2016. In January of 2018 I went to new company Great Choice Ltd., and final company was Global Print Ltd. where I started working in October 2018, and finished working in end of December 2018.</p>
-            <hr>
-            <h3>Education</h3>
-            <p><strong>Technical High School of &quot;Ruđera Boškovića&quot;, Zagreb</strong> <br> Graduated Computing Technician (2008 – 2012)</p>
-            <p><strong>Zagreb University of Applied Sciences</strong> <br> Electrical Engineering, Communications and Computer Technology (2012 – 2016)</p>
-            <p><strong>Zagreb University of Applied Sciences</strong> <br> Computing, Computer Systems and Networking, Bacc. Ing. Comp. (2016 – 2019)</p>
-            <hr>
-            <h3>Career</h3>
-            <p><strong>Gold Deal Ltd.</strong> <br> IT Administrator, Web Shop Administrator, Social Media Manager (Nov. 2016 – Jan. 2018)</p>
-            <p><strong>Great Choice Ltd.</strong> <br> IT Administrator, Web Shop Administrator, Social Media Manager, Web Designer (Jan. 2018 – Oct. 2018)</p>
-            <p><strong>Global Print Ltd.</strong> <br> IT Administrator, Social Media Manager, UX/UI Designer, Video Producer (Oct. 2018 – Dec. 2018)</p>
-            <p><strong>Self-Employed</strong> <br> Freelance Web Designer & Administrator (Jan. 2018 – Present)</p>
-            <hr>
-            <h3>Skills</h3>
-            <p><strong>Web Design (HTML, CSS, JS)</strong> - Advanced (4.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Web Development (php)</strong> - Basic (2.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Web Administration (WordPress, Joomla, Prestashop)</strong> - Advanced (4.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>SEO/SEM</strong> - Intermediate (3.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Objective Oriented Programming (Java, C#)</strong> - Basic (2.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>System Administration (Windows)</strong> - Advanced (4.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>System Administration (Linux)</strong> - Intermediate (4/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>System Administration (macOS/OS X)</strong> - Intermediate (4/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Social Media Management</strong> - Intermediate (4/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Graphics Design</strong> - Basic (3/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Photography</strong> - Intermediate (3.5/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-            <p><strong>Video Production</strong> - Basic (3/5) <svg class="icon star"><use xlink:href="/svg/sprite.svg#star"></use></svg></p>
-        </section>
+    <main class="cover">
+        {{ content }}
     </main>
     <footer>
         <div class="legal">
@@ -152,6 +122,10 @@
         })(window,document,'script','dataLayer','GTM-P24BSDN');
     </script>
     <!-- End Google Tag Manager -->
+    <script src="js/external/typed.js"></script>
+    <script>
+        var typed = new Typed('.typing', { strings: ['Freelance Web Designer', 'IT Technician', 'Web Administrator', 'IT Administrator', 'Photographer', 'Video Editor', 'Gamer and Nerd'], typeSpeed: 30, startDelay: 5, backSpeed: 50, backDelay: 700, loop: true });
+    </script>
     <script type="opt-in" data-name="darkModeSwitcher" data-src="js/manual-switch.js" data-type="application/javascript"></script>
     <script type="opt-in" data-name="darkModeSwitcher" data-src="js/favicon-dark-mode.js" data-type="application/javascript"></script>
 </body>

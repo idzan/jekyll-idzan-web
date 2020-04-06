@@ -1,0 +1,143 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: "dark";
+  }
+  :root:not([data-user-color-scheme]) {
+    --background: var(--color-dark);
+    --text-color: var(--color-light);
+    --dark: var(--color-dark);
+    --light: var(--color-light);
+    --accent: var(--color-blue);
+    --grey: var(--color-grey);
+    --link: var(--color-light-blue);
+    --link-visited: var(--color-blue);
+    --button-background-default: var(--color-blue);
+    --button-color-default: var(--color-light);
+    --button-background: var(--color-light);
+    --button-color: var(--color-dark);
+    --border-color: var(--color-light-alpha);
+    --button-icon: var(--icon-sun);
+    --button-icon-filter: var(--icon-sun-filter);
+    --facebook: var(--facebook-dark);
+    --twitter: var(--twitter-dark);
+    --linkedin: var(--linkedin-dark);
+    --instagram: var(--instagram-dark);
+    --youtube: var(--youtube-dark);
+    --github: var(--github-dark);
+    --reddit: var(--reddit-dark);
+    --discord: var(--discord-dark);
+    --whatsapp: var(--whatsapp-dark);
+    --viber: var(--viber-dark);
+    --other-icons: var(--color-light);
+  }
+  :root :focus {
+    outline: solid 1px var(--light);
+  }
+  ::-moz-selection {
+    background: var(--background);
+    color: var(--text-color);
+  }
+  ::selection {
+    background: var(--background);
+    color: var(--text-color);
+  }
+  body {
+    background: var(--background);
+    color: var(--text-color);
+  }
+  a {
+    color: var(--link);
+  }
+  a:visited {
+    color: var(--link-visited);
+  }
+  nav .menu-item {
+    color: var(--text-color);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--text-color)), to(var(--text-color)));
+    background-image: linear-gradient(var(--text-color), var(--text-color));
+  }
+  nav .menu-item[aria-current] {
+    border-bottom: 2px solid var(--text-color);
+  }
+  .menu span, .menu span:before, .menu span:after {
+    background: var(--text-color);
+  }
+  .legal a {
+    color: var(--text-color);
+  }
+  .cta, .returnback {
+    background: var(--accent);
+    color: var(--light);
+  }
+  .cta:visited, .returnback:visited {
+    color: var(--light);
+  }
+  .details .icon {
+    fill: var(--text-color);
+  }
+  .details a {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--light)), to(var(--light)));
+    background-image: linear-gradient(var(--light), var(--light));
+  }
+  .star, .mail, .phone {
+    fill: var(--text-color);
+  }
+  .facebook {
+    fill: var(--facebook);
+  }
+  .twitter {
+    fill: var(--twitter);
+  }
+  .linkedin {
+    fill: var(--linkedin);
+  }
+  .youtube {
+    fill: var(--youtube);
+  }
+  .instagram {
+    fill: var(--instagram);
+  }
+  .github {
+    fill: var(--github);
+  }
+  .reddit {
+    fill: var(--reddit);
+  }
+  .whatsapp {
+    fill: var(--whatsapp);
+  }
+  .viber {
+    fill: var(--viber);
+  }
+  .discord {
+    fill: var(--discord);
+  }
+}
+
+[data-user-color-scheme="dark"] {
+  --background: var(--color-dark);
+  --text-color: var(--color-light);
+  --dark: var(--color-dark);
+  --light: var(--color-light);
+  --accent: var(--color-blue);
+  --grey: var(--color-grey);
+  --link: var(--color-light-blue);
+  --link-visited: var(--color-blue);
+  --button-background-default: var(--color-blue);
+  --button-color-default: var(--color-light);
+  --button-background: var(--color-light);
+  --button-color: var(--color-dark);
+  --border-color: var(--color-light-alpha);
+  --button-icon: var(--icon-sun);
+  --button-icon-filter: var(--icon-sun-filter);
+  --facebook: var(--facebook-dark);
+  --twitter: var(--twitter-dark);
+  --linkedin: var(--linkedin-dark);
+  --instagram: var(--instagram-dark);
+  --youtube: var(--youtube-dark);
+  --github: var(--github-dark);
+  --reddit: var(--reddit-dark);
+  --discord: var(--discord-dark);
+  --whatsapp: var(--whatsapp-dark);
+  --viber: var(--viber-dark);
+}
