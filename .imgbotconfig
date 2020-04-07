@@ -1,4 +1,7 @@
 {
     "schedule": "weekly",
-    "aggressiveCompression": "true"
+    "aggressiveCompression": "true",
+    "ingoredFiles": [
+        "logo.svg"
+    ]
 }
