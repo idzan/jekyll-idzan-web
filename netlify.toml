@@ -6,4 +6,3 @@
     X-Content-Type-Options = "nosniff"
     X-Xss-Protection = "1; mode=block;"
     Referrer-Policy = "origin"
-    SiteCookie = "https://www.google.com/; SameSite=None; Secure;"
