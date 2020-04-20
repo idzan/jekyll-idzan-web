@@ -5,4 +5,5 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-Xss-Protection = "1; mode=block;"
-    SameSite = "None; Secure;"
+    Referrer-Policy = "origin"
+    SiteCookie = "https://google.com; SameSite=None; Secure;"
