@@ -533,6 +533,20 @@ footer {
   outline: solid 1px var(--dark);
 }
 
+html::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--dark);
+  border-radius: 25px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
 ::-moz-selection {
   background: var(--background);
   color: var(--text-color);
@@ -685,6 +699,17 @@ button {
   }
   :root :focus {
     outline: solid 1px var(--light);
+  }
+  html::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: var(--light);
+    border-radius: 25px;
+  }
+  html::-webkit-scrollbar-track {
+    background: var(--dark);
   }
   ::-moz-selection {
     background: var(--background);
