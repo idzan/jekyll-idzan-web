@@ -1,7 +1,7 @@
 [[headers]]
     for  ="/*"
     [headers.values]
-    Content-Security-Policy: "default-src: 'none'; script-src: 'self' www.google.com/recaptcha www.gstatic.com/recaptcha www.google-analytics.com ajax.googleapis.com www.google.com google.com gstatic.com www.gstatic.com; frame-src: www.google.com/recaptcha"
+    Content-Security-Policy = "default-src: 'none'; script-src: 'self' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; frame-src: https://www.google.com/recaptcha/"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-Xss-Protection = "1; mode=block;
