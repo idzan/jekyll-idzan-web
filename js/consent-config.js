@@ -67,23 +67,9 @@ var klaroConfig = {
             required: true,
         },
         {
-            name: 'cloudflare',
-            title: 'Cloudflare',
-            purposes: ['security'],
-            cookies: ['_cfduid'],
-            required: true,
-        },
-        {
             name: 'netlify',
             title: 'Netlify',
             purposes: ['security', 'hosting'],
-            required: true,
-        },
-        {
-            name: 'googleReCaptchav2',
-            title: 'reCaptcha V2',
-            purposes: ['security'],
-            cookies: ['rc::c'],
             required: true,
         },
     ],
