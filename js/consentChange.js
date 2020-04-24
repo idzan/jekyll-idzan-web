@@ -1,11 +1,14 @@
-function klaroCookieChange() {
+/* function klaroCookieChange() {
     klaro.show();
     return false;
 }
-
+ */
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('#cookieChange').addEventListener('click', clickHandler);
-    klaroCookieChange();
+    document.querySelector('#cookieChange').addEventListener('click', function() {
+        klaro.show();
+        return false;
+    });
+    /* klaroCookieChange(); */
 });
 
 
