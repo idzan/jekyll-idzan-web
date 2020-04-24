@@ -1,7 +1,7 @@
 [[headers]]
     for  ="/*"
     [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-ooI1jaWim65tBUX+C8r4Y+zdYOgwXbK3vFsTLJxbETo=' 'sha256-Dq21QDu6PN4KXgEDN+wuOsPN6tGaLoJtxqY7QWz4TqQ=' https://www.google.com/ https://www.googletagmanager.com/ https://www.google-analytics.com/; src-elem 'self' 'sha256-ooI1jaWim65tBUX+C8r4Y+zdYOgwXbK3vFsTLJxbETo=' 'sha256-Dq21QDu6PN4KXgEDN+wuOsPN6tGaLoJtxqY7QWz4TqQ=' https://www.google.com/ https://www.googletagmanager.com/ https://www.google-analytics.com/; style-src 'self' *.cloudfront.net 'sha256-ESwzs/pwk6xVxIZH3YCxHKVRV9YGR02+QzCza+PCibs='; media-src 'self' *.cloudfront.net https://www.google-analytics.com/; img-src 'self' *.cloudfront.net https://www.google-analytics.com/"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-ooI1jaWim65tBUX+C8r4Y+zdYOgwXbK3vFsTLJxbETo=' 'sha256-Dq21QDu6PN4KXgEDN+wuOsPN6tGaLoJtxqY7QWz4TqQ=' https://www.google.com/ https://www.googletagmanager.com/ https://www.google-analytics.com/; style-src 'self' *.cloudfront.net 'sha256-ESwzs/pwk6xVxIZH3YCxHKVRV9YGR02+QzCza+PCibs='; media-src 'self' *.cloudfront.net https://www.google-analytics.com/ data:; img-src 'self' *.cloudfront.net https://www.google-analytics.com/ data:"
 
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
