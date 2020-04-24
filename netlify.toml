@@ -1,7 +1,7 @@
 [[headers]]
     for  ="/*"
     [headers.values]
-    Content-Security-Policy = "default-src https: 'unsafe-inline'"
+    Content-Security-Policy = "default-src https:"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-Xss-Protection = "1; mode=block"
