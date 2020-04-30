@@ -5,9 +5,9 @@
             <span></span>
         </label>
         <img src="/svg/logo.svg" alt="Marko Idzan" class="logo">
-        <nav>
+        <nav role="navigation" aria-label="mainNavigation">
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" class="menu-item" {% if page.url == item.link %}aria-current="page"{% endif %} title="{{ item.name }}">{{ item.name }}</a>
+            <a href="{{ item.link }}" class="menu-item" {% if page.url == item.link %}aria-current="page"{% endif %} role="menuitem" title="{{ item.name }}">{{ item.name }}</a>
             {% endfor %}
         </nav>
     </div>
