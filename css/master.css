@@ -39,8 +39,8 @@
   --color-dark-blue: #0b0980;
   --color-green: #026928;
   --color-red: #ba1e04;
-  --color-dark-alpha: rgba(32, 39, 49, 0.1);
-  --color-light-alpha: rgba(238, 238, 238, 0.9);
+  --color-dark-alpha: rgb(32 39 49 / 10%);
+  --color-light-alpha: rgb(238 238 238 / 90%);
   --facebook-light: #3b5998;
   --twitter-light: #1da1f2;
   --linkedin-light: #0077b5;
@@ -422,11 +422,6 @@ button {
 
 .contact {
   padding-right: 1em;
-}
-
-.g-recaptcha {
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 footer {
@@ -820,7 +815,7 @@ button {
   --viber: var(--viber-dark);
 }
 
-.visually-hidden {
+.visually-hidden, .screen-reader {
   display: block;
   height: 1px;
   width: 1px;
