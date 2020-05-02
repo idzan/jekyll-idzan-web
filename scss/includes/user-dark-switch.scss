@@ -1,7 +1,6 @@
 .user-toggle {
     margin: 1em auto 0 auto;
     padding-top: 1em;
-    max-width: 10em;
     text-align: center;
 }
 
@@ -10,7 +9,7 @@
     background: var(--button-background);
     color: var(--button-color);
     border: none;
-    padding: 0.5em 1em;
+    padding: 1em;
     transition: background 500ms ease-in-out, color 200ms ease;
 
     :focus {
