@@ -64,6 +64,8 @@ body {
     font-size: 1em;
     line-height: 1.5em;
     transition: background 500ms ease-in-out, color 200ms ease;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 h1 {
